@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-image:url(m.jpeg);
+  background-repeat: no-repeat ;
+  background-size:110px 110px; 
+  padding:0px 0px 50px;
+}
+.top {
+  text-align:left;
+  padding:0px 10px 0px;
+  color: black; 
+}
+
+/* Search */
+ input[type=text] {
+  padding: 10px ;
+  font-size: 17px;
+  border: 1px solid grey;
+  margin-top: 10px; ;
+  float: left;
+  width: 270px;
+ 
+}
+input:hover{
+  background: #e5eaee;
+
+}
+
+form  {
+  float: right;
+  width: 400px;
+  color: white;
+  margin-top: 10px; 
+  border-left: none;
+  padding:10px ;
+  font-size: 17px;
+}
+ button:hover {
+  background: #0b7dda;
+}
+/*navBar*/
+.data {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: rgba(7, 7, 7, 0.5);
+              text-align:  center;
+            }
+            
+            li {
+                display:inline-block;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 12px 14px;
+              text-decoration: none;
+              
+            }
+            
+            li a:hover:not(.active){
+              background-color: rgb(39, 39, 39);
+            }
+           
+            
+            .active {
+              background-color: #4CAF50;
+            }
+            .btn{
+                float: right;
+            }
+
+nav {
+  float: left;
+  width: 25%;
+  height: 3000px; 
+  padding: 120px 3px;
+  }  
+
+/* Style the list inside the menu */
+
+  .btn-group .button {
+  background-color:  rgba(7, 7, 7, 0.5);
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 200px;
+  display: block;
+}
+.btn-group .button:hover {
+  background-color: rgb(39, 39, 39); 
+}
+
+/*Content */
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+}
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: #DDD;
+}
+ .button {
+  
+  background-color: forestgreen; 
+  color: white;
+  padding: 10px 18px; ;
+  text-align: center;
+  font-size: 16px;
+  width: 110px;
+  border: none; 
+    border-radius: 4px;
+    text-decoration: none;
+}
+.div-butn .button:hover {
+  background-color:rgb(65, 83, 255);
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align:left;
+  
+
+}
+.link{
+    color: white;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+.postion{
+  position: absolute;
+  right: 7px;
+  top : 50px;
+}
+footer {
+  background-color: gray ;
+  padding:0px 0px 5px 0px;
+  text-align: center;
+  color:black;
+  margin-top:3300px;
+  
+}
+
+
+</style>
+</head>
+<body>
+  <header class="header">
+  <form class="form" >
+    <button class="button postion">Search</button>
+    <input type="text" placeholder="Search..." name="search">
+  </form>
+  
+  <h3 class="top">yourCam</h3> 
+ 
+      
+</header>
+
+<div class="data">
+  <li><a class="active" href="Untitled-2.html">Home</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="btn"><a  href="Project Web.html">Sign in</a></li>
+</div>
+
+  <section>
+    <nav>
+      <div class="btn-group">
+        <button class="button"><a href="Canon.html" Class="link">Canon</a></button>
+        <br>
+        <button class="button"><a href="Nikon.html" Class="link">Nikon</a></button>
+        <br>
+        <button class="button"><a href="Panc.html" Class="link">Panasonic</a></button>
+        <br>
+        <button class="button"><a href="fujifilm.html" Class="link">Fujifilm</a></button>
+      </div>
+    </nav>
+</section>
+<h1>Featured Products</h1>
+<div>
+<div class="gallery">
+  <p title="EOS-1D X Mark III">
+    <img src="1DX_MARKIII.png">
+  <div class="desc">EOS-1D X Mark III<p><b>Main Features</b></p>
+    <ul>
+     <li>1- 20MP - Full frame CMOS Sensor</li>
+     <li>2- ISO 100 - 102400( expands to 50-819200)</li>
+     <li>3- 3.2 Fixed Type Screen</li>
+     <li>Optical (pentaprism) viewfinder</li>
+     <li>20.0 fps continuous shooting</li>
+     <li>5.5K - 5472 X 2886 video</li>
+     <li>10-bit 4:2:2 at 4K 60p Video recording</li>
+     <li>120fps at Full HD High-Speed Video</li>
+     <li> Built-in Wireless</li>
+     <li> Built-in GPS</li>
+     <li>1440g. 158 x 168 x 83 mm</li>
+     <li>Weather Sealed Body</li>
+    </ul><div class="div-butn">
+      <button class="button" > <a href="buy.html" class = "link" > buy now </a> </button>
+
+    </div>
+  </div>
+</div>
+<div class="gallery">
+  <p title="Canon EOS 5D Mark IV">
+    <img src="c2.jpg" >
+  </p>
+  <div class="desc">Canon EOS 5D Mark IV Digital SLR Body<p><b>Main Features</b></p>
+  <br>
+<h2>Free Sandisk SanDisk Extreme SDXC 64GB card, Tecno Gadget Bag & 1-2-1 Online Tuition added to your order</h2>
+    <ul> 
+       <li>30 megapixel CMOS sensor</li>
+       <li>7 fps shooting</li>
+       <li>ISO up to 102400 (expanded)</li>
+       <li>4K video recording</li>
+       <li>Wi-Fi and NFC connectivity</li>
+     </ul><div class="div-butn">
+      <button class="button" > <a href="buy.html" class = "link" > buy now </a> </button>  
+    </div>  
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="gallery">
+  <p title="Nikon D780">
+    <img src="N1.png">
+   </p> 
+  <div class="desc">Nikon D780<p><b>Main Features</b></p>
+  <br>
+    <ul>
+      <li>FX-Format BSI CMOS Sensor</li>
+      <li>EXPEED 6 Image Processing Engine</li>
+      <li>UHD 4K30 Video; N-Log & 10-Bit HDMI Out</li>
+      <li>Multi-CAM 3500 II 51-Point AF System</li>
+      <li>273-Point Hybrid AF with Eye Detection</li>
+      <li>3.2" 2.36m-Dot Tilting Touchscreen LCD</li>
+      <li>7 fps Shooting, 12 fps in Live View</li>
+      <li>Extended ISO 50-204800</li>
+      <li>Built-In Wi-Fi and Bluetooth</li>
+      <li>180k-Pixel RGB Sensor Exposure Metering</li>
+    </ul><div class="div-butn">
+      <button class="button" > <a href="buy.html" class = "link" > buy now </a> </button>
+      </div>
+    </div>
+</div>
+<div class="gallery">
+  <p title="Sony Alpha a7 III ">
+    <img src="s11.jpg">
+  </p>
+  <div class="desc">Sony Alpha a7 III<p><b>Main Features</b></p>
+    <br>
+    <ul>
+       <li>24MP Full-Frame Exmor R BSI CMOS Sensor</li>
+       <li>BIONZ X Image Processor & Front-End LSI</li>
+       <li>693-Point Hybrid AF System</li>
+       <li>UHD 4K30p Video with HLG & S-Log3 Gammas</li>
+       <li>2.36m-Dot Tru-Finder OLED EVF</li>
+       <li>3.0" 922k-Dot Tilting Touchscreen LCD</li>
+       <li>5-Axis SteadyShot INSIDE Stabilization</li>
+       <li>ISO 204800 and 10 fps Shooting</li>
+       <li>Built-In Wi-Fi and NFC, Dual SD Slots</li>
+       <li>FE 28-70mm f/3.5-5.6 OSS Lens</li>
+       <li>Show Less</li>
+    </ul><div class="div-butn">
+      <button class="button" > <a href="buy.html" class = "link" > buy now </a> </button>
+    </div> 
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="gallery">
+  <p title="FUJIFILM X-T4">
+    <img src="f1.jpg">
+  </p>
+  <div class="desc">FUJIFILM X-T4<p><b>Main Features</b></p>
+    <br>
+    <ul>
+        <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor</li>
+        <li>X-Processor 4 Image Processor</li>
+        <li>5-Axis In-Body Image Stabilization</li>
+        <li>DCI/UHD 4K at 60 fps, Full HD at 240 fps</li>
+        <li>425-Point Hybrid AF System</li>
+        <li>3.69m-Dot 0.75x OLED EVF</li>
+        <li>3.0" 1.62m-Dot Vari-Angle Touchscreen</li>
+        <li>ISO 160-12800, up to 15-fps Shooting</li>
+        <li>Bluetooth and Wi-Fi Connectivity</li>
+        <li>Film Simulation Modes</li>
+        </li>
+    </ul><div class="div-butn">
+      <button class="button" > <a href="buy.html" class = "link" > buy now </a> </button>
+</div>
+</div>
+</div>
+<footer class="footer">
+ 
+  <p>Copyright &copy YourCam</p>
+</footer>
+</body>
+</html>

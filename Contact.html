@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+     
+     <title>form</title>
+     <style>
+          body{
+               margin:0;
+               padding:0;
+          }
+          .contact{
+               min-height: 20px;
+               padding: 50px 100px;
+               align-items:center;
+               flex-direction:column;
+               background:url(bg666.jpg);
+               background-repeat:no-repeat;
+               background-position: center;
+
+          
+          }
+          .contact .content{
+               max-width:800px;
+               text-align:center;
+          }
+          .contact .content h2{
+               font-size:36px;
+               font-weight:500;
+               color:#fff;
+          }
+          .contact .content p{
+               font-weight:500;
+               color:#fff;
+          }
+          .container{
+               width:100%;
+               display:flex;
+               justify-content:center;
+               align-items:center;
+               margin-top:30px;
+          }
+          .container .contactInfo{
+               width:50%;
+               display:flex;
+               flex-direction:column;
+          }
+          .container .contactInfo .box{
+               position: relative;
+               padding: 20px 0;
+               display: flex;
+          }
+
+          .container .contactInfo .box .icon{
+               min-width:60px;
+               height:60px;
+               background:#fff;
+               display:flex;
+               justify-content:center;
+               align-items:center;
+               border-radius: 50%;
+               font-size:22px;
+          }
+          .container .contactInfo .box .text{
+               display:flex;
+               margin-left:20px;
+               font-size:16px;
+               color:#fff;
+               flex-direction:column;
+               font-weight:300;
+          }
+
+          .container .contactInfo .box .text h3{
+               font-weight:500;
+               color:#f36;
+          }
+          .contact-from{
+               width:40%;
+               padding:40px;
+               background:#fff;
+          }
+          .contact-from h2{
+               font-size:30px;
+               color:black;
+               font-weight:500;
+          }
+          .contact-from .inputBox{
+               position: relative;
+               width: 100%;
+               margin-top: 10px;
+          }
+          .contact-from .inputBox input,
+          .contact-from .inputBox textarea{
+               width: 100%;
+               padding: 5px 0;
+               font-size:16px;
+               margin:10px 0;
+               border:none;
+               border-bottom: 2px solid #333;
+               outline: none;
+               resize: none;
+          }
+          .contact-from .inputBox span{
+               position: absolute;
+               top: 0;
+               left: 0;
+               padding: 5px 0;
+               font-size:14px;
+               margin:10px 0;
+               color:#666;
+               pointer-events:none;
+               transition:all 0.3s ease-in-out;
+          }
+          .contact-from .inputBox input:focus ~ span,
+          .contact-from .inputBox input:valid ~ span,
+          .contact-from .inputBox textarea:focus ~ span,
+          .contact-from .inputBox textarea:valid ~ span{
+               top: -15px;
+               color:#e91e63;
+               font-size: 12px;
+          }
+          .contact-from .inputBox input[type="submit"]{
+               width:100px;
+               background:#00bcd4;
+               color:#fff;
+               border:none;
+               padding:10px;
+               font-size:18px;
+          }
+     </style>
+</head>
+<body>
+     <section class="contact">
+          <div class="content">
+               <h2>contact us</h2>
+               <p>welcome</p>
+          </div>
+          <div class="container">
+               <div class="contactInfo">
+                    <div class="box">
+                    <div class="icon"></div>
+                         <div class="text">
+                              <h3>Address</h3>
+                              <p>elbagor minofia<br>egypt<br>freedom street</p>
+                         </div>
+                    </div>
+               <div class="box">
+                    <div class="icon"></div>
+                    <div class="text">
+                         <h3>phone</h3>
+                         <p>01000035505</p>
+                    </div>
+               </div>
+               <div class="box">
+                    <div class="icon"></div>
+                    <div class="text">
+                         <h3>Email</h3>
+                         <p>Mariam.ehab6755@gmail.com</p>
+                    </div>
+               </div>
+               </div>
+               <div class="contact-from">
+                    <form>
+                         <h2>Send message</h2>
+                         <div class="inputBox">
+                              <input type="text" name="" required="required">
+                              <span>Full Name</span>
+                         </div>
+                         <div class="inputBox">
+                              <input type="text" name=""  required="required">
+                              <span>Email</span>
+                         </div>
+                         <div class="inputBox">
+                              <textarea required="required"></textarea>
+                              <span>Type Your Message....</span>
+                         </div>
+                         <div class="inputBox">
+                              <input type="submit" name=""  value="send">
+                         </div>
+                    </form>
+               </div>
+          </div>
+     </section>
+</body>
+</html>
